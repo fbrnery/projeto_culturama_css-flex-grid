@@ -1,3 +1,5 @@
+
+/* Menu */
 .menu {
     display: flex;
     justify-content: space-evenly;
@@ -6,11 +8,20 @@
     column-gap: 33px;
 }
 
+/* Menu */
+
+
+/*  Categorias */
+
 .categorias__lista {
     display: flex;
     flex-direction: column;
     row-gap: .5rem;
 }
+
+/*  Categorias */
+
+/*  Destaques */
  .destaques {
     display: flex;
     align-items: center;
@@ -23,6 +34,11 @@
     white-space: nowrap;
  }
 
+
+/*  Destaques */
+
+
+/*  Eventos */
  .eventos__lista {
     display: flex;
     flex-wrap: wrap;
@@ -35,6 +51,8 @@
     flex-grow: 1;
     max-width: 400px;
  }
+
+ /*  Eventos */
 
  /*Agenda Início */
 
