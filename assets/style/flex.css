@@ -36,6 +36,35 @@
     max-width: 400px;
  }
 
+ /*Agenda Início */
+
+ .agenda__lista {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 1rem;
+    column-gap: 1.5rem;
+    justify-content: center;
+ } 
+
+ .agenda__item {
+    flex-grow: 1;
+ }
+
+
+ /*Agenda Fim */
+
+ /*Rodape*/
+
+ .rodape {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ }
+
+ .rodape__logo {
+    align-self: end;
+ }
+
 @media (min-width: 720px) {
     .menu {
         column-gap: 75px;
